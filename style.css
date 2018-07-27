@@ -1,0 +1,60 @@
+body {
+	background-color: #00A86B;
+	padding: 0;
+	margin: 0;
+}
+
+.red {
+	background-color: #ff003c;
+	height: 100vh;
+	width: 0vw;
+	transition: .50s ease-in-out;
+}
+
+.left {
+	position: fixed;
+	top: 48%;
+	left: 20px;
+	float: left;
+}
+
+.right {
+	position: fixed;
+	top: 48%;
+	right: 20px;
+	float: right;
+}
+
+.sellvolume {
+	font-family: "Chivo", sans-serif;
+	font-weight: 900;
+	font-size: 4vh;
+	line-height: 100%;
+	color: #ffffff;
+}
+
+.buyvolume {
+	font-family: "Chivo", sans-serif;
+	font-weight: 900;
+	font-size: 4vh;
+	line-height: 100%;
+	color: #ffffff;
+}
+
+.sellvolumeusd {
+	font-family: "Chivo", sans-serif;
+	font-weight: 100;
+	font-size: 2vh;
+	line-height: 100%;
+	color: #ffffff;
+	float: left;
+}
+
+.buyvolumeusd {
+	font-family: "Chivo", sans-serif;
+	font-weight: 100;
+	font-size: 2vh;
+	line-height: 100%;
+	color: #ffffff;
+	float: right;
+}
