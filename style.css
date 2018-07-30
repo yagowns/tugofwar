@@ -13,16 +13,32 @@ body {
 
 .left {
 	position: fixed;
-	top: 48%;
+	top: 50%;
 	left: 20px;
 	float: left;
+	transform: translate(0%, -50%);
 }
 
 .right {
 	position: fixed;
-	top: 48%;
+	top: 50%;
 	right: 20px;
 	float: right;
+	transform: translate(0%, -50%);
+}
+
+.bottom {
+	position: fixed;
+	bottom: 3%;
+	left: 50%;
+	transform: translate(-50%, 0%);
+}
+
+.top {
+	position: fixed;
+	top: 3%;
+	left: 50%;
+	transform: translate(-50%, 0%);
 }
 
 .sellvolume {
@@ -57,4 +73,49 @@ body {
 	line-height: 100%;
 	color: #ffffff;
 	float: right;
+}
+
+.sellpercent {
+	font-family: "Chivo", sans-serif;
+	font-weight: 600;
+	font-size: 6vh;
+	line-height: 100%;
+	color: #ffffff;
+}
+
+.buypercent {
+	font-family: "Chivo", sans-serif;
+	font-weight: 600;
+	font-size: 6vh;
+	line-height: 100%;
+	color: #ffffff;
+	text-align: right;
+}
+
+.currentprice {
+	font-family: "Chivo", sans-serif;
+	font-weight: 600;
+	font-size: 2.5vh;
+	word-spacing: 3px;
+	line-height: 100%;
+	color: #ffffff;
+	text-align: center;
+}
+
+.timer {
+	font-family: "Chivo", sans-serif;
+	font-weight: 100;
+	font-size: 2vh;
+	line-height: 150%;
+	color: #ffffff;
+	text-align: center;
+}
+
+.title {
+	font-family: "Chivo", sans-serif;
+	font-weight: 900;
+	font-size: 3vh;
+	line-height: 100%;
+	color: #ffffff;
+	text-align: center;
 }
