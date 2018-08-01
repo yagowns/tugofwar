@@ -4,6 +4,11 @@ var totalVolume = 0;
 var sellVolumeUSDZero = 0;
 var buyVolumeUSDZero = 0;
 var percentSell = 0;
+
+var viewportWidth = $(window).width();
+
+var viewportHeight = $(window).height();
+
 //Starting from here, this code creates the bitmex websocket
 //and comunicates and sends trading information.
 var ws = new WebSocket('wss://www.bitmex.com/realtime?subscribe=trade:XBTUSD');
@@ -58,8 +63,6 @@ var ws = new WebSocket('wss://www.bitmex.com/realtime?subscribe=trade:XBTUSD');
 
     $(".sellpercent").html(percentSellValue); //the percent number
     $(".buypercent").html(percentBuyValue);
-
-    //console.log(orderside + " @ " + xprice + " = " + btc + " BTC " + " = " + xpent + " USD");
  };
 
  ws.onclose = function () {
