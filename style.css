@@ -124,7 +124,7 @@ body {
 .timer {
 	font-family: "Chivo", sans-serif;
 	font-weight: 300;
-	font-size: 2vh;
+	font-size: 2.3vh;
 	line-height: 150%;
 	color: #ffffff;
 	text-align: center;
@@ -133,7 +133,7 @@ body {
 .title {
 	font-family: "Chivo", sans-serif;
 	font-weight: 900;
-	font-size: 3vh;
+	font-size: 3.5vh;
 	line-height: 100%;
 	color: #ffffff;
 	text-align: center;
